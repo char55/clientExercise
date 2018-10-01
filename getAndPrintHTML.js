@@ -17,10 +17,8 @@ function getAndPrintHTML () {
     reply.on('end', function(data) {
       console.log('END OF STEAM');
     });
-
   });
-
-};
+}
 
 
 getAndPrintHTML();
