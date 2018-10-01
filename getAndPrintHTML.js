@@ -12,7 +12,7 @@ function getAndPrintHTML () {
 
     reply.on('data', function(data) {
       stream += data;
-    console.log(stream);
+      console.log(stream);
     });
     reply.on('end', function(data) {
       console.log('END OF STEAM');
