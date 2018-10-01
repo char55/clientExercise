@@ -9,9 +9,8 @@ function getAndPrintHTMLChunks () {
 
   https.get(requestOptions, function(reply) {
     reply.setEncoding('utf8');
-
     reply.on('data', function (data) {
-      console.log(data, '\nYO\n');
+      console.log(data, '\n');
     });
 
     reply.on('end', function() {
